@@ -1,0 +1,37 @@
+{
+    "name": "eslint-config-gigasavvy",
+    "version": "1.0.0",
+    "description": "ESLint shareable config for Gigasavvy.",
+    "license": "MIT",
+    "author": "Gigasavvy",
+    "engines": {
+        "node": ">=0.10.0"
+    },
+    "scripts": {
+        "test": "node test/test.js"
+    },
+    "files": [
+        "index.js"
+    ],
+    "keywords": [
+        "code",
+        "quality",
+        "style",
+        "lint",
+        "linter",
+        "eslint",
+        "code style",
+        "strict",
+        "check",
+        "checker",
+        "verify",
+        "enforce"
+    ],
+    "peerDependencies": {
+        "eslint": ">=3.8.1"
+    },
+    "dependencies": {
+        "eslint-config-airbnb": "^14.0.0"
+    },
+    "main": "index.js"
+}
